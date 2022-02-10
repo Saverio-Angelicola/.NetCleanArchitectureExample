@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherForecastsClean.Application\WeatherForecastsClean.Application.csproj" />
+    <ProjectReference Include="..\WeatherForecastsClean.Core\WeatherForecastsClean.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Datas\" />
+  </ItemGroup>
+
+</Project>

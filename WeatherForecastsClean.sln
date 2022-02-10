@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{69B38F5B-D378-4FF2-B4A2-8803914C9B15}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecastsClean.Core", "WeatherForecastsClean.Core\WeatherForecastsClean.Core.csproj", "{01476D97-CB08-41A5-BD52-71A15DD9EDB6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecastsClean.Application", "WeatherForecastsClean.Application\WeatherForecastsClean.Application.csproj", "{E73A4414-9B78-4019-9837-E30F209BFE0A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecastsClean.Infrastructure", "WeatherForecastsClean.Infrastructure\WeatherForecastsClean.Infrastructure.csproj", "{65F5C337-AC8F-456C-A061-611701B2A239}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherForecastsClean.API", "WeatherForecastsClean.API\WeatherForecastsClean.API.csproj", "{935FD6DE-5CFC-45BD-8334-44849A8051D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BEAA6D82-0042-44E3-8E2F-63B0C9D9B48C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherForeCastsCLean.Application.UnitTests", "WeatherForeCastsCLean.Application.UnitTests\WeatherForeCastsCLean.Application.UnitTests.csproj", "{F4CBE62B-12E9-41C0-B804-7554A3932D64}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01476D97-CB08-41A5-BD52-71A15DD9EDB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01476D97-CB08-41A5-BD52-71A15DD9EDB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01476D97-CB08-41A5-BD52-71A15DD9EDB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01476D97-CB08-41A5-BD52-71A15DD9EDB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E73A4414-9B78-4019-9837-E30F209BFE0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E73A4414-9B78-4019-9837-E30F209BFE0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E73A4414-9B78-4019-9837-E30F209BFE0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E73A4414-9B78-4019-9837-E30F209BFE0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65F5C337-AC8F-456C-A061-611701B2A239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65F5C337-AC8F-456C-A061-611701B2A239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65F5C337-AC8F-456C-A061-611701B2A239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65F5C337-AC8F-456C-A061-611701B2A239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935FD6DE-5CFC-45BD-8334-44849A8051D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935FD6DE-5CFC-45BD-8334-44849A8051D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935FD6DE-5CFC-45BD-8334-44849A8051D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935FD6DE-5CFC-45BD-8334-44849A8051D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4CBE62B-12E9-41C0-B804-7554A3932D64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4CBE62B-12E9-41C0-B804-7554A3932D64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4CBE62B-12E9-41C0-B804-7554A3932D64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4CBE62B-12E9-41C0-B804-7554A3932D64}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01476D97-CB08-41A5-BD52-71A15DD9EDB6} = {69B38F5B-D378-4FF2-B4A2-8803914C9B15}
+		{E73A4414-9B78-4019-9837-E30F209BFE0A} = {69B38F5B-D378-4FF2-B4A2-8803914C9B15}
+		{65F5C337-AC8F-456C-A061-611701B2A239} = {69B38F5B-D378-4FF2-B4A2-8803914C9B15}
+		{935FD6DE-5CFC-45BD-8334-44849A8051D9} = {69B38F5B-D378-4FF2-B4A2-8803914C9B15}
+		{F4CBE62B-12E9-41C0-B804-7554A3932D64} = {BEAA6D82-0042-44E3-8E2F-63B0C9D9B48C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4466C113-0BC4-4066-8A75-DD09BD2134DC}
+	EndGlobalSection
+EndGlobal
